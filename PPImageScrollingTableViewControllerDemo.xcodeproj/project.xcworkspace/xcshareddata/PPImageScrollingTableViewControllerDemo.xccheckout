@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>90807442-8256-477F-BDA3-BBB77E79D0A9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PPImageScrollingTableViewControllerDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>43FA64879C01B8F85F39123B399583C2AFBE4FFB</key>
+		<string>https://github.com/gazeing/PPImageScrollingTableViewCell.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PPImageScrollingTableViewControllerDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>43FA64879C01B8F85F39123B399583C2AFBE4FFB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gazeing/PPImageScrollingTableViewCell.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>43FA64879C01B8F85F39123B399583C2AFBE4FFB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>43FA64879C01B8F85F39123B399583C2AFBE4FFB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PPImageScrollingTableViewCell</string>
+		</dict>
+	</array>
+</dict>
+</plist>

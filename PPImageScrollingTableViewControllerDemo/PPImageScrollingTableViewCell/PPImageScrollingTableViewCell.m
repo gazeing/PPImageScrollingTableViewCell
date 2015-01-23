@@ -10,7 +10,7 @@
 #import "PPImageScrollingCellView.h"
 
 #define kScrollingViewHieght 120
-#define kCategoryLabelWidth 200
+#define kCategoryLabelWidth 300
 #define kCategoryLabelHieght 30
 #define kStartPointY 30
 
