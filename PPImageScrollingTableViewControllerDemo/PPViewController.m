@@ -22,7 +22,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     self.title = @"PPImageScrollingTableView";
-    [self.tableView setBackgroundColor:[UIColor grayColor]];
+    [self.tableView setBackgroundColor:[UIColor whiteColor]];
     
     static NSString *CellIdentifier = @"Cell";
     [self.tableView registerClass:[PPImageScrollingTableViewCell class] forCellReuseIdentifier:CellIdentifier];
@@ -92,14 +92,14 @@
     static NSString *CellIdentifier = @"Cell";
     NSDictionary *cellData = [self.images objectAtIndex:[indexPath section]];
     PPImageScrollingTableViewCell *customCell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    [customCell setBackgroundColor:[UIColor grayColor]];
+    [customCell setBackgroundColor:[UIColor whiteColor]];
     [customCell setDelegate:self];
     [customCell setImageData:cellData];
-    [customCell setCategoryLabelText:[cellData objectForKey:@"category"] withColor:[UIColor whiteColor]];
+    [customCell setCategoryLabelText:[cellData objectForKey:@"category"] withColor:[UIColor darkGrayColor]];
     [customCell setTag:[indexPath section]];
     [customCell setImageTitleTextColor:[UIColor whiteColor] withBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:0.7]];
     [customCell setImageTitleLabelWitdh:90 withHeight:45];
-    [customCell setCollectionViewBackgroundColor:[UIColor darkGrayColor]];
+    [customCell setCollectionViewBackgroundColor:[UIColor whiteColor]];
  
     return customCell;
 }
