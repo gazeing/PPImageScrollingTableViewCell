@@ -108,7 +108,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 150;
+    return 250;
 }
 
 - (void)didReceiveMemoryWarning

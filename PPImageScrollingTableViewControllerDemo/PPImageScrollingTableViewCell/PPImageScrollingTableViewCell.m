@@ -9,10 +9,10 @@
 #import "PPImageScrollingTableViewCell.h"
 #import "PPImageScrollingCellView.h"
 
-#define kScrollingViewHieght 120
+#define kScrollingViewHieght 180
 #define kCategoryLabelWidth 200
-#define kCategoryLabelHieght 30
-#define kStartPointY 30
+#define kCategoryLabelHieght 50
+#define kStartPointY 50
 
 @interface PPImageScrollingTableViewCell() <PPImageScrollingViewDelegate>
 
